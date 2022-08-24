@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 // Global 首字母大写，全局可以访问
 var Global = "全局变量"
 
@@ -7,6 +9,7 @@ var Global = "全局变量"
 // 其子包也不能用
 var local = "包变量"
 
+// 块声明
 var (
 	First  string = "abc"
 	second int32  = 16
@@ -16,6 +19,12 @@ func main() {
 	// int 是灰色的，是因为 golang 自己可以做类型推断，它觉得你可以省略
 	var a int = 13
 	println(a)
+	var sss float32 = 1.2
+	fmt.Println(sss)
+	fmt.Println(local)
+	fmt.Println(Global)
+	fmt.Println(First)
+	fmt.Println(second)
 
 	// 这里我们省略了类型
 	var b = 14
