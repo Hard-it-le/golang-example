@@ -6,7 +6,6 @@ import (
 	"io"
 	"log"
 	"net/http"
-
 	_ "net/http/pprof"
 
 	"github.com/golang/glog"
@@ -30,7 +29,6 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-
 }
 
 func healthz(w http.ResponseWriter, r *http.Request) {
