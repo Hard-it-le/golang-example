@@ -19,5 +19,4 @@ func main() {
 
 	// 字符串拼接。只能发生在 string 之间
 	println("Hello, " + "Go!")
-
 }
