@@ -2,6 +2,15 @@ package main
 
 import "fmt"
 
+/*
+*
+fmt 格式化
+fmt 包有完整的说明
+
+掌握常用的：%s， %d， %v， %+v，%#y 不仅仅是^fimt‘的调用，所有格式化字符串的 API 都可以用
+
+因为golang字符串拼接只能在 string 之间， 所以这个包非常常用
+*/
 func main() {
 	name := "Tom"
 	age := 17
