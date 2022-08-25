@@ -2,6 +2,12 @@ package main
 
 import "fmt"
 
+/*
+*
+带局部变量声明的 if- else：
+1。 distance 只能在计块，或者后边所有的 else 块里面使用
+2。脱离了f-else 块，则不能再使用
+*/
 func main() {
 	Young(9)
 	Young(100)
