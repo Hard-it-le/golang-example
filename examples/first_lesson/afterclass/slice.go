@@ -35,6 +35,5 @@ func Delete(s []int, index int) []int {
 	fmt.Printf("s delete before : %s\n", s)
 	s = append(s[:index], s[index+1:]...)
 	fmt.Printf("s delete after : %s\n", s)
-	// TODO
 	return s
 }
