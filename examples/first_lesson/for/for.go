@@ -2,6 +2,13 @@ package main
 
 import "fmt"
 
+/*
+*
+1。 for {}，类似 while 的无限循环
+2。 fori，一般的按照下标循环
+3。 for range 最为特殊的 range 遍历
+4。 break 和 continue 和别的语言一样
+*/
 func main() {
 	ForLoop()
 	ForI()
