@@ -2,6 +2,12 @@ package main
 
 import "fmt"
 
+/*
+*
+switch 后面可以是基础类型和字符串，或者满足特定条件的结构体最大的差别：
+
+终于不用加 break 了！
+*/
 func main() {
 	ChooseFruit("蓝莓")
 	ChooseFruit("苹果")
